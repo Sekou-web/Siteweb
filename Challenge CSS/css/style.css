@@ -1,0 +1,147 @@
+
+@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface
+);
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+
+body {
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+header img {
+    width: 500px;
+}
+
+section.top-page {
+    background: url("../images/Background.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+}
+
+/* PAGE DE BIENVENUE (landing page */
+
+.fixed-texte {
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: beige;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 50px;
+    width: 100%;
+    position: relative;
+}
+
+.Defiler-bas {
+    color: white;
+    text-decoration: none;
+    bottom: à;
+}
+
+/* menu de naviguation */
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+    margin-left: 30px;
+}
+nav.nav li a {
+    color: white;
+    width: 500px;
+    text-decoration: none;
+}
+
+/* nos activités */
+
+.section-title {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.Nosactivites {
+    margin: 100px;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: aquamarine;
+    width: 40px;
+    height: 7px;
+    bottom: 0;
+}
+
+.activity {
+    background-color: red;
+    min-height: 100;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.activity-box {
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    min-width: 450px;
+    height: 500px;
+    flex: 1;
+}
+
+.activity1 {
+    background-image: url(../images/EDUCATION.jpg);
+}
+.activity2 {
+    background-image: url(../images/OIP.jpeg);
+}
+.activity3 {
+    background-image: url(../images/Assainissement.png);
+}
+.activity-details {
+    position: absolute;
+    background-color: antiquewhite;
+    width: 91%;
+    bottom: 0;
+    padding: 5px 20px;
+}
+
+.activity-text {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 3px;
+}
+
+.contact {
+    text-align: start;
+}
+
+.contact li a {
+    color: white;
+    text-decoration: none;
+}
